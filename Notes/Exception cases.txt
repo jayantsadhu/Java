@@ -1,0 +1,42 @@
+
+-->Throwable:-class
+ 1.Exception   -we can handle it 
+ 2.Error  - we can't handle it
+
+-->1.
+1.Checked       IOException, SQLException
+2.Unchecked     RuntimeException, ArithmaticException   ....
+
+
+-->Statement:-
+ 1.Normal     int i=1;
+ 2.Critical   int k=i/j;
+
+
+--> "throws Exception/IOException/SQLException" can subpress the error.
+
+try
+{
+int i=j/k;
+}
+
+catch   (ArithmaticException ae)
+{
+  //some code
+}
+
+catch  (IOException ie) 
+{
+   //some code
+}
+
+catch(Exception e)
+{
+   //handles all type of exceptions
+}
+
+
+
+
+
+

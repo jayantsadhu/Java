@@ -1,0 +1,26 @@
+class A
+{
+int i;
+float f;
+
+public A() --> Default constructor
+{
+i=3;
+f=3/4;
+}
+public A(int k) --> Created constructor or constructor overloading
+{
+i=k;
+sout(".....")
+}
+}
+coconstructor --> 
+1)member method
+2)same name as class
+3)It will never return anything
+4)It will be used to allocate memory
+
+psvm()
+{
+   A obj= new A()  //new is keword to call constructor and it's a default constructor
+}

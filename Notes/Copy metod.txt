@@ -1,0 +1,14 @@
+
+-->Copying Object:-
+ 1.Shallow copy        Anyclass obj1=obj;
+
+ 2.Deep copy          
+ Anyclass obj1=new anyclass()
+ obj1.i=obj.i;                    //copy one by one
+ obj1.j=obj.j;
+
+
+
+ 3.Clone
+--> Anyclass obj1=obj.clone();
+   using the interface cloneable

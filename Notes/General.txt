@@ -1,0 +1,58 @@
+OOPS :- Object Oriented Programming System        //JAVA is based on OOPS
+
+-->Varargs- Variable arguments  (...a(to indicating it's a array or string type can accept many no. of arguments))
+
+
+Abstraction:
+
+1.Abstract metods are the methods can only be declared without defining
+  --> public abstract void login();
+
+2.Abstract class can have abstract methods as well as non-abstract.
+
+3.A non-abstract class can't have a abstract Method.
+
+4.we cannot create objects of abstract Methods.
+
+5.if we extend a abstract class and the new class is not abstract type then 
+  no declared methods of abstract class must overridden by the new class methods. 
+  and the new class is known as concrete class.
+
+
+Interface:-
+
+1.Declare a method.
+2.Cannot define a method.
+3.Cannot create object.
+4.Two interfaces can be extends by a class at a same time.
+5.Every method in interface is public and abstract by default.
+6.Class-Class->extends , interface-class->implements ,
+  interface-interface->extends
+7.In New version of java we can define methods in interface 
+  by using keyboard default and also by static.
+--> Marker interface: Interface with no declaration,these are used to give permissions to some methods.
+
+
+-->int i,float f,double d,....these are premittive variables not object.
+-->Wrapping:-
+  int i;
+  Integer iobj=new Integer(i);                   //boxing                          //Wrapper Classes in java
+  Integer jj=i;                 //autoboxing
+-->Unwrapping:-                                //Taking out the value from object
+  int j=iobj.intvalue();        //Unboxing
+
+
+-->Strings are immutable once we create it we dont replace it we create another when we change it.
+ 
+
+-->
+
+
+
+IDE- Integrated Development Environment
+Eclipse
+Netbeans:   8.0
+JEdit
+
+
+

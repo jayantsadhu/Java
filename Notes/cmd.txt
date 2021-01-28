@@ -1,0 +1,15 @@
+Microsoft Windows [Version 10.0.17763.1098]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\JAYANT>d:
+
+D:\>cd Programming\JAVA
+
+D:\Programming\JAVA>javac Demowork.java
+
+D:\Programming\JAVA>set path="C:\Program Files\Java\jdk-13.0.2\bin"
+
+D:\Programming\JAVA>java Demowork
+Hello World
+
+D:\Programming\JAVA>
