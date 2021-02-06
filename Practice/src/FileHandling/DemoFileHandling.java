@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class DemoFileHandling {
 	public static void main(String arg[]) {
-		File createFile= new File("C:\\Users\\JAYANT\\Desktop\\OkFile.txt");
+		File createFile= new File("D:\\Data Science\\abcd.txt");
 		PrintWriter toWriteIntoFile = null;
 		try{
-			toWriteIntoFile=new PrintWriter(createFile);
+			toWriteIntoFile=new PrintWriter("D:\\Data Science\\abcd3.txt"); 
 			toWriteIntoFile.println("Hey! I started learnig Data Science.");
 		}
 		catch(FileNotFoundException e) {
