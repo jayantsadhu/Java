@@ -7,7 +7,7 @@ import java.util.Locale;
 public class CurrencyFormatter {
 
 	public static void main(String[] args) {
-		BigDecimal amount = new BigDecimal(19319.333);
+		BigDecimal amount = new BigDecimal(19319.337);
 
 		/* Format amount in US format which is the default */
 		NumberFormat defaultFormat = NumberFormat.getCurrencyInstance();
