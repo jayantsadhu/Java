@@ -1,4 +1,0 @@
-Multithreading.consumer
-Multithreading.InnerCommunication
-Multithreading.Q
-Multithreading.producer

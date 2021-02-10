@@ -1,2 +1,0 @@
-Display.Ai
-Display.AnonymousObject

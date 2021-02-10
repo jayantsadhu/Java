@@ -1,2 +1,0 @@
-Display.ThisKey
-Display.Ah
