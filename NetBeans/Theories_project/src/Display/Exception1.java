@@ -2,7 +2,7 @@
 package Display;
 import java.lang.Exception;
 
-public class Exception 
+public class Exception1 
 {
     public static void main(String[] args)  throws Exception
     {

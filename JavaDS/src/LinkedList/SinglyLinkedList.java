@@ -6,8 +6,8 @@ public class SinglyLinkedList {
 	private ListNode head;
 	
 	
-
-	private static class ListNode
+	
+	 private static class ListNode
 	{
 		private int data;
 		private ListNode next;
@@ -17,10 +17,10 @@ public class SinglyLinkedList {
 			this.data=data;
 			this.next=null;
 		}
-	}
+	}		
 	
 	public static void main(String[] args) {
-		SinglyLinkedList sll=new SinglyLinkedList();
+		SinglyLinkedList sll=new SinglyLinkedList();;
 		sll.head=new ListNode(10);
 		ListNode second=new ListNode(11);
 		ListNode third=new ListNode(12);
@@ -59,8 +59,6 @@ public class SinglyLinkedList {
 		NewNode.next=head;
 		head=NewNode;
 	}
-	
-
 }
 
 

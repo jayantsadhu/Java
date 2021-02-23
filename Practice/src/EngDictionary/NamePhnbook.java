@@ -1,4 +1,4 @@
-package ThirtyDays;
+package EngDictionary;
 import java.util.*;
 public class NamePhnbook {
 	public static void main(String[] args) {
@@ -26,5 +26,4 @@ public class NamePhnbook {
 		}
 		sc.close();
 	}
-
 }

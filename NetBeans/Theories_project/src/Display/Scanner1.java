@@ -4,7 +4,7 @@ package Display;
 
 import java.util.Scanner;
 
-public class Scanner 
+public class Scanner1 
 {
     public static void main(String[] args) 
     {

@@ -5,23 +5,24 @@ import java.time.LocalDate;
 public class CalenderDateTime {
 	 public static void main(String[] args) throws IOException {
 	        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-	        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("DATA_PATH")));
+	        //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-	        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+	        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split("[ /]");
 
-	        int month = Integer.parseInt(firstMultipleInput[0]);
-
-	        int day = Integer.parseInt(firstMultipleInput[1]);
-
+	        
+	        int day = Integer.parseInt(firstMultipleInput[0]);
+	        
+	        int month = Integer.parseInt(firstMultipleInput[1]);
+	        
 	        int year = Integer.parseInt(firstMultipleInput[2]);
 
-	        String res = Result.findDay(month, day, year);
+	        String res = Result.findDay(year,month, day);
 
-	        bufferedWriter.write(res);
-	        bufferedWriter.newLine();
-
+	        //bufferedWriter.write(res);
+	        //bufferedWriter.newLine();
+	        System.out.println(res);
 	        bufferedReader.close();
-	        bufferedWriter.close();
+	        //bufferedWriter.close();
 	    }
 }
 
@@ -32,8 +33,8 @@ class Result {
   int day=sc.nextInt();
   int year=sc.nextInt();*/
 
-    public static String findDay(int month, int day, int year) {
-        LocalDate date=LocalDate.of(month,day,year);
+    public static String findDay(int year,int month, int day) {
+        LocalDate date=LocalDate.of(year,month,day);
         return date.getDayOfWeek().toString();
     }
 
