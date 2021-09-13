@@ -193,15 +193,16 @@ public class SLL2 {
 				head=q;
 				p=head;
 			}for(int i=1;i<=10;i++) {
-			while(p.next.next!=null) {
-				q=p.next;
-				r=q.next;
-				if(q.data>r.data) {
-					q.next=r.next;
-					r.next=q;
-					p.next=r;
-				}p=p.next;
-			}p=head;
+				while(p.next.next!=null) {
+					q=p.next;
+					r=q.next;
+					if(q.data>r.data) {
+						q.next=r.next;
+						r.next=q;
+						p.next=r;
+					}p=p.next;
+				}
+				p=head;
 			}
 		}
 		

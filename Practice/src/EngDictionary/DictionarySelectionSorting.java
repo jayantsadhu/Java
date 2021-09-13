@@ -12,7 +12,7 @@ public class DictionarySelectionSorting {
         for(int i=0; i<len; i++){
            str[i]=sc.nextLine();
         }
-        
+        sc.close();
         int k=0;
         while(k<len-1){
 	        for(int i=k+1; i<len; i++){

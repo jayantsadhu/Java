@@ -10,8 +10,8 @@ public class EnglishDictionary {
 	        char[] chrB=b.toCharArray();
 	        if(a.length()!=b.length())
 	            return false;
-	        else {
-	            for(int i=0;i<chrA.length;i++) {
+	        
+	        for(int i=0;i<chrA.length;i++) {
 	                int n1=noOfChar(chrA,chrA[i]);
 	                int n2=noOfChar(chrB,chrA[i]);
 	                if(n1!=n2) {
@@ -19,7 +19,6 @@ public class EnglishDictionary {
 	                }
 	            }return true;
 	        }
-	    }
 	    static int noOfChar(char[] chr, char c) {
 	        int count=0;
 	        for(int i=0;i<chr.length;i++) {

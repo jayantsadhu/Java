@@ -34,22 +34,24 @@ public class SLinkedList2 {
 		System.out.println("4.Add node at beginning.");
 		
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();	
-		switch(n) {
-			case 1:
-				sll.Append();
-				break;
-			case 2:
-				System.out.println("Length= "+sll.length());
-				break;
-			case 3:
-				sll.display();
-				break;
-			case 4:
-				sll.AddAtBeginning();
-				break;
-			default :
-				System.out.println("Invalid option.");	
+		while(true) {
+			int n=sc.nextInt();	
+			switch(n) {
+				case 1:
+					sll.Append();
+					break;
+				case 2:
+					System.out.println("Length= "+sll.length());
+					break;
+				case 3:
+					sll.display();
+					break;
+				case 4:
+					sll.AddAtBeginning();
+					break;
+				default :
+					System.out.println("Invalid option.");	
+			}
 		}
 	}
 	

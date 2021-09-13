@@ -7,7 +7,7 @@ public class MergeSort {
 		int arr[]= {4,8,3,4,2,7,6,20,14,75};
 	}
 	
-	Array mergeSort(int arr[]) {
+	int[] mergeSort(int arr[]) {
 		
 		int L=1;
 		while(L<=arr.length) {
@@ -19,6 +19,6 @@ public class MergeSort {
 		
 		}
 		
-		return 
+		return arr;
 	}
 }
